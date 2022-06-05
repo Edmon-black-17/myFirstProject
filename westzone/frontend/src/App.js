@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <header>
-        <a href="/"> f  f  f</a>
+        <a href="/"> w---z--- </a>
       </header>
 
       <main>list products</main>
