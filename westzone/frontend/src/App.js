@@ -17,7 +17,7 @@ function App() {
         <a href="/"> fff</a>
       </header>
 
-      <main>list products</main>
+      <main>lis t products</main>
     </div>
   );
 }
