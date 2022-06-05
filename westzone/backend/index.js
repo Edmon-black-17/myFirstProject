@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/data", (req, res) => {
     res.send({
-        fullName: "Stefanie Martini"
+        fullName: "Stefanie  Martini"
     });
     
 });

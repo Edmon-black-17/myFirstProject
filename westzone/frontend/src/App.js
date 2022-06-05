@@ -6,9 +6,10 @@ function App() {
     fetch('/data')
       .then((resp) => resp.json())
       .then((resp) => {
-        alert(JSON.stringify(resp, undefined, 4));
+        alert(JSON.stringify(resp, undefined, 9));
       });
   }, []);
+
 
   return (
     <div>
