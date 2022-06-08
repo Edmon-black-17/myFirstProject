@@ -1,10 +1,10 @@
 {
-  "name": "something",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "serverDev": "nodemon --require dotenv/config index.js"
+    "serverDev": "nodemon --require dotenv/config server.js"
   },
   "keywords": [],
   "author": "",
