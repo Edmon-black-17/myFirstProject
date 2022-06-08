@@ -4,6 +4,7 @@ import axios from 'axios';
 import logger from 'use-reducer-logger';
 //import data from '../data';
 
+
 const reducer = (state, action) => {
   if (action.type === 'FETCH_REQUEST') {
     return { ...state, loading: true };
@@ -42,13 +43,11 @@ function HomeScreen() {
     <div>
       <h1>Featured Products</h1>
       <div className="products">
-
         {loading ? (
           <div>Loading...</div>
         ) : error ? (
           <div>{error}</div>
         ) : (
-          
           products.map((product) => (
             <div className="product" key={product.slug}>
               <Link to={`/product/${product.slug}`}>

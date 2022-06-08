@@ -44,3 +44,8 @@
 2. Update Fetch Data
 3. Get State From useReducer
 4. |npm install use-reducer-logger --force|
+
+# Step 7 /Add Bootstrap UI Framework/
+1. |npm install react-bootstrap bootstrap|
+2. |npm install react-router-bootstrap| for LinkContainer
+3. Update` App.js With Using` Layout and Components from react-bootstrap
