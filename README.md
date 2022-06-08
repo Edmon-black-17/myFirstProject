@@ -49,3 +49,8 @@
 1. |npm install react-bootstrap bootstrap|
 2. |npm install react-router-bootstrap| for LinkContainer
 3. Update` App.js With Using` Layout and Components from react-bootstrap
+
+# Step 8 /Create Product and Rating Component/
+1. Create Rating Component
+2. Create Product Component
+3. Use Rating Component in Product Component
