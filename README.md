@@ -54,3 +54,8 @@
 1. Create Rating Component
 2. Create Product Component
 3. Use Rating Component in Product Component
+
+# Step 9 /Create Product Details Screen/
+1. Fetch Product from Backend
+2. Create 3 Columns for Image, Into and Action
+3. Showing Product Name in the Title |npm install react-helmet-async|

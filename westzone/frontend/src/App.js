@@ -19,7 +19,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='d-flex flex-column siteContainer'>
+      <div className="d-flex flex-column siteContainer">
         <header>
           <Navbar bg="dark" variant="dark">
             <Container>
@@ -31,7 +31,7 @@ function App() {
         </header>
 
         <main>
-          <Container>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
@@ -39,7 +39,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className='text-center'>All Rights Reserved</div>
+          <div className="text-center">All Rights Reserved</div>
         </footer>
       </div>
     </BrowserRouter>
