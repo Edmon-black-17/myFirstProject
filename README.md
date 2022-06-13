@@ -95,3 +95,7 @@
 3. Install |node.js|
 4. Install |mongoDB.| Database
 5. Install |POSTMAN| Platform for API
+
+# *Step 2 /Design Website Template\
+1. Create Very Basic Template 
+2. Create Header, Main and Footer
