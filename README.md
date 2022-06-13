@@ -80,3 +80,10 @@
 1. Create 2 Columns
 2. Display Items List
 3. Create Action Column
+
+# Step 14 /Complate Cart Screen\
+1. Click Handler for inc/dec Item
+2. Click Handler for Remove Item
+3. Click Handler for Checkout
+
+

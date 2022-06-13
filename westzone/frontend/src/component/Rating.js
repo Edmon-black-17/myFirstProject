@@ -1,3 +1,4 @@
+
 import './Rating.css';
 
 function Rating({ rating, numReviews }) {
