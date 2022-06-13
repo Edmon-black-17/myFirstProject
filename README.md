@@ -88,3 +88,10 @@
 
 
 # I'M GONNA TO IMPROVE MY PROJECT WITH { REDUX } AND BUILD IT FROM SCRATCH...
+
+# *Step 1 /Installing Tools\
+1. Install |VS Code| Editor
+2. Install |google.com/chrome| Browser
+3. Install |node.js|
+4. Install |mongoDB.| Database
+5. Install |POSTMAN| Platform for API
