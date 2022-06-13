@@ -75,3 +75,8 @@
 # Step 12 /Complate Add to Cart\
 1. Check Exist Item in the Cart
 2. Check Count in Stock in Backend
+
+# Step 13 /Create Cart Screen\
+1. Create 2 Columns
+2. Display Items List
+3. Create Action Column
