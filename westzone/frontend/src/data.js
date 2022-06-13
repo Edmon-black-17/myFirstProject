@@ -1,3 +1,4 @@
+/*
 const data = {
   products: [
     {
@@ -52,3 +53,4 @@ const data = {
 };
 
 export default data;
+*/

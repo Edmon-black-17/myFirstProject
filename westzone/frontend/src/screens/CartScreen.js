@@ -1,4 +1,4 @@
-
+/*
 import { useContext } from 'react';
 import './CartScreen.css';
 import Col from 'react-bootstrap/Col';
@@ -96,3 +96,4 @@ export default function CartScreen() {
     </div>
   );
 }
+*/

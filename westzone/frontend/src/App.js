@@ -1,6 +1,6 @@
 //import { useEffect } from 'react';
 //import './App.css';
-
+/*
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
@@ -65,3 +65,4 @@ function App() {
 }
 
 export default App;
+*/

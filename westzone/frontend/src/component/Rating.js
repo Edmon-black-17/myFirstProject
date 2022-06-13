@@ -1,4 +1,4 @@
-
+/*
 import './Rating.css';
 
 function Rating({ rating, numReviews }) {
@@ -65,3 +65,4 @@ function Rating({ rating, numReviews }) {
 }
 
 export default Rating;
+*/

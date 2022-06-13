@@ -87,3 +87,4 @@
 3. Click Handler for Checkout
 
 
+# I'M GONNA TO IMPROVE MY PROJECT WITH { REDUX } AND BUILD IT FROM SCRATCH...

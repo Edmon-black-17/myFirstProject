@@ -1,3 +1,4 @@
+/*
 import { useEffect, useReducer, useState } from 'react';
 import axios from 'axios';
 import logger from 'use-reducer-logger';
@@ -69,3 +70,4 @@ function HomeScreen() {
 }
 
 export default HomeScreen;
+*/

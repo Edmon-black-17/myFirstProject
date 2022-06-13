@@ -1,4 +1,4 @@
-
+/*
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import './Product.css';
@@ -24,3 +24,4 @@ function Product({product}) {
 }
 
 export default Product;
+*/
