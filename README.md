@@ -99,3 +99,8 @@
 # *Step 2 /Design Website Template\
 1. Create Very Basic Template 
 2. Create Header, Main and Footer
+
+# *Step 3 /Display Products\
+1. Create Products div
+2. Add Product Attributes
+3. Add Link, Image, Name, Rating and Price
