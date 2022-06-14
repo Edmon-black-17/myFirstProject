@@ -52,7 +52,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 #root {
   height: 100%;
 }
@@ -150,8 +149,4 @@ img.medium {
   font-size: 1.6rem;
 }
 
-/* Rating */
-.rating span {
-  color: #f0c040;
-  margin: 0.1rem;
-}
+

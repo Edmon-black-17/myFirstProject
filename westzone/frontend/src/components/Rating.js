@@ -1,4 +1,3 @@
-/*
 import './Rating.css';
 
 function Rating({ rating, numReviews }) {
@@ -59,10 +58,9 @@ function Rating({ rating, numReviews }) {
           }
         />
       </span>
-      <span> {numReviews} reviews</span>
+      <span> {numReviews + ' reviews'}</span>
     </div>
   );
 }
 
 export default Rating;
-*/

@@ -110,3 +110,10 @@
 2. |npm start|
 3. Remove Unused Files
 4. Transfer the Items of Initial Folder to React App
+
+# *Step 5 /Create Rating and Product Component\
+1. Create Components/Rating.js
+2. Create div.rating
+3. Style div.rating, span and Last span
+4. Create Product Component
+5. Use Rating Component
