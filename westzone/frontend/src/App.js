@@ -1,5 +1,6 @@
-//import { useEffect } from 'react';
-//import './App.css';
+import React from 'react';
+import data from './data';
+
 /*
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
@@ -26,15 +27,15 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="d-flex flex-column siteContainer">
+      <div classNameName="d-flex flex-column siteContainer">
         <header>
           <Navbar bg="dark" variant="dark">
             <Container>
               <LinkContainer to="/">
                 <Navbar.Brand>w---z---</Navbar.Brand>
               </LinkContainer>
-              <Nav className="me-auto">
-                <Link to="/cart" className="nav-link">
+              <Nav classNameName="me-auto">
+                <Link to="/cart" classNameName="nav-link">
                   Cart
                   {cart.cartItems.length > 0 && (
                     <Badge pill bg="danger">
@@ -48,7 +49,7 @@ function App() {
         </header>
 
         <main>
-          <Container className="mt-3">
+          <Container classNameName="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/cart" element={<CartScreen />} />
@@ -57,7 +58,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">All Rights Reserved</div>
+          <div classNameName="text-center">All Rights Reserved</div>
         </footer>
       </div>
     </BrowserRouter>
@@ -66,3 +67,62 @@ function App() {
 
 export default App;
 */
+
+function App() {
+  return (
+    <div className="gridContainer">
+      <header className="row">
+        <div>
+          <a className="brand" href="/">
+            w---z---
+          </a>
+        </div>
+        <div>
+          <a href="/cart">Cart</a>
+          <a href="/signin">Sign In</a>
+        </div>
+      </header>
+      <main>
+        <div className="row center">
+          {data.products.map((product) => (
+            <div key={product._id} className="card">
+              <a href={`/product/${product._id}`}>
+                <img
+                  className="medium"
+                  src={product.image}
+                  alt={product.name}
+                />
+              </a>
+              <div className="cardBody">
+                <a href={`/product/${product._id}`}>
+                  <h2>{product.name}</h2>
+                </a>
+                <div className="rating">
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                </div>
+                <div className="price">${product.price}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </main>
+      <footer className="row center">All Right Reserved</footer>
+    </div>
+  );
+}
+
+export default App;

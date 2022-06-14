@@ -104,3 +104,9 @@
 1. Create Products div
 2. Add Product Attributes
 3. Add Link, Image, Name, Rating and Price
+
+# *Step 4 /Create React App\
+1. |npx create-react-app frontend|
+2. |npm start|
+3. Remove Unused Files
+4. Transfer the Items of Initial Folder to React App
