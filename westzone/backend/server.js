@@ -1,4 +1,3 @@
-/*
 import express from 'express';
 import data from './data.js';
 
@@ -7,6 +6,24 @@ const app = express();
 app.get('/api/products', (req, res) => {
   res.send(data.products);
 });
+
+app.get('/', (req, res) => {
+  res.send('Server is ready');
+});
+
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Serve at http://localhost:${port}`);
+});
+
+/*
+
+
+
+
+
+
 
 app.get('/api/products/slug/:slug', (req, res) => {
   const product = data.products.find((x) => x.slug === req.params.slug);
@@ -26,8 +43,5 @@ app.get('/api/products/:id', (req, res) => {
   }
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`serve at http://localhost:${port}`);
-});
+
 */

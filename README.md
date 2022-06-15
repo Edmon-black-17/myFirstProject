@@ -126,3 +126,19 @@
 5. Create ProductScreen.js
 6. Add New Route from Product Details to App.js
 7. Create 3 Columns for Product Image, Info and Action
+
+# *Step 7 /Create Node.js Server\
+1. Run |npm init| in Root Folder
+2. Update` package.json Set` type: "module"
+3. Add` .js to Imports
+4. Install |npm install express|
+5. Create` server.js File
+6. Add Start Command as Node backend/server.js
+7. Require express
+8. Create Route for / Return Backend is Ready.
+9. Move` product.js from Frontend to Backend
+10. Create Route for /api/products
+11. Return Products
+12. Run |npm run serverDev| then |npm start|
+13. From (chrome.google.com) Download` JSON Viewer
+14. Install |npm install --save-dev nodemon|
