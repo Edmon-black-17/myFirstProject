@@ -1,9 +1,10 @@
 import React from 'react';
-import Product from './components/Product';
-import data from './data';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
 
 /*
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import Navbar from 'react-bootstrap/Navbar';
@@ -69,31 +70,40 @@ function App() {
 export default App;
 */
 
+
+
+
+
+
+
 function App() {
+ 
+ 
   return (
-    <div className="gridContainer">
-      <header className="row">
-        <div>
-          <a className="brand" href="/">
-            w---z---
-          </a>
-        </div>
-        <div>
-          <a href="/cart">Cart</a>
-          <a href="/signin">Sign In</a>
-        </div>
-      </header>
-      <main>
-        <div>
-          <div className="row center">
-            {data.products.map((product) => (
-              <Product key={product._id} product={product}></Product>
-            ))}
+    <BrowserRouter>
+          <div className="gridContainer">
+        <header className="row">
+          <div>
+            <a className="brand" href="/">
+              w---z---
+            </a>
           </div>
-        </div>
-      </main>
-      <footer className="row center">All Right Reserved</footer>
-    </div>
+          <div>
+            <a href="/cart">Cart</a>
+            <a href="/signin">Sign In</a>
+          </div>
+        </header>
+        <main>
+          <Routes>
+            
+            <Route path="/product/:id" component={ProductScreen}></Route>
+            <Route path="/" component={HomeScreen} exact></Route>
+          </Routes>
+        </main>
+
+        <footer className="row center">All Right Reserved</footer>
+      </div>
+    </BrowserRouter>
   );
 }
 
