@@ -4,7 +4,6 @@ import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 
 /*
-
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import Navbar from 'react-bootstrap/Navbar';
@@ -70,18 +69,10 @@ function App() {
 export default App;
 */
 
-
-
-
-
-
-
 function App() {
- 
- 
   return (
     <BrowserRouter>
-          <div className="gridContainer">
+      <div className="gridContainer">
         <header className="row">
           <div>
             <a className="brand" href="/">
@@ -95,9 +86,8 @@ function App() {
         </header>
         <main>
           <Routes>
-            
-            <Route path="/product/:id" component={ProductScreen}></Route>
-            <Route path="/" component={HomeScreen} exact></Route>
+            <Route path="/product/.id" element={<ProductScreen />} />
+            <Route path="/" element={<HomeScreen />} exact />
           </Routes>
         </main>
 

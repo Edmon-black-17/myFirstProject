@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Rating from '../components/Rating';
 import data from '../data';
 
-export default function ProductScreen(props) {
+function ProductScreen(props) {
   const product = data.products.find((x) => x._id === props.match.params.id);
   if (!product) {
     return <div>Product Not Found</div>;
@@ -51,7 +51,7 @@ export default function ProductScreen(props) {
                     {product.countInStock > 0 ? (
                       <span className="success">In Stock</span>
                     ) : (
-                      <span className="error">Unavailabel</span>
+                      <span className="danger">Unavailabel</span>
                     )}
                   </div>
                 </div>
@@ -66,6 +66,8 @@ export default function ProductScreen(props) {
     </div>
   );
 }
+
+export default ProductScreen;
 
 /*
 import axios from 'axios';

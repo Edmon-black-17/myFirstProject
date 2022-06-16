@@ -142,3 +142,16 @@
 12. Run |npm run serverDev| then |npm start|
 13. From (chrome.google.com) Download` JSON Viewer
 14. Install |npm install --save-dev nodemon|
+
+# *Step 8 /Load Products from Backend\
+1. Setting` proxy
+2. Edit` HomeScreen.js
+3. Define Products, Loading and Error
+4. Create` useEffect Hook
+5. Define` async fetchData and Call it
+6. Install |npm install axios|
+7. Get Data from /api/products
+8. Show Them in the List
+9. Create Loading Component
+10. Create Message Box Component
+11. Use Them in HomeScreen
