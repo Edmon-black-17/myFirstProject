@@ -1,6 +1,8 @@
+import React from 'react';
 import './Rating.css';
 
-function Rating({ rating, numReviews }) {
+function Rating(props) {
+  const { rating, numReviews } = props;
   return (
     <div className="rating">
       <span>
@@ -12,7 +14,7 @@ function Rating({ rating, numReviews }) {
               ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
-        />
+        ></i>
       </span>
       <span>
         <i
@@ -23,7 +25,7 @@ function Rating({ rating, numReviews }) {
               ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
-        />
+        ></i>
       </span>
       <span>
         <i
@@ -34,7 +36,7 @@ function Rating({ rating, numReviews }) {
               ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
-        />
+        ></i>
       </span>
       <span>
         <i
@@ -45,7 +47,7 @@ function Rating({ rating, numReviews }) {
               ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
-        />
+        ></i>
       </span>
       <span>
         <i
@@ -56,7 +58,7 @@ function Rating({ rating, numReviews }) {
               ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
-        />
+        ></i>
       </span>
       <span> {numReviews + ' reviews'}</span>
     </div>

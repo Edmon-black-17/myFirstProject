@@ -162,3 +162,17 @@
 3. Run ./node_modules/.bin/eslint --init
 4. Create ./frontend/.env
 5. Add SKIP_PREFLIGHT_CHECK=true
+
+# *Step 10 /Add Redux to HomeScreen\
+1. Install |npm install redux react-redux|
+2. Install |npm install redux-thunk|
+3. Create` store.js
+4. InitState = {products: []}
+5. Reducer = {state, action} => switch LOAD_PRODUCTS: {products: action.payload}
+6. Export default createStore(reducer, initState)
+7. /Add to Chrome\ the` Redux DevTools from google.com
+8. Edit` HomeScreen.js
+9. ShopName = useSelector(state => state.products)
+10. Const dispatch = useDispatch()
+11. UseEffect(() => dispatch({type: LOAD_PRODUCTS, payload: data}))
+12. Add Store to index.js
