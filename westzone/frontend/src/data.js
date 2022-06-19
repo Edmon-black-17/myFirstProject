@@ -1,7 +1,7 @@
 /*const data = {
   products: [
     {
-      _id: 1,
+      _id: '1',
       name: 'Nike Slim Shirt',
       //slug: 'nike-slim-shirt',
       category: 'Shirts',
@@ -14,7 +14,7 @@
       description: 'high quality shirt',
     },
     {
-      _id: 2,
+      _id: '2',
       name: 'Adidas Fit Shirt',
       //slug: 'adidas-fit-shirt',
       category: 'Shirts',
@@ -27,7 +27,7 @@
       description: 'high quality shirt',
     },
     {
-      _id: 3,
+      _id: '3',
       name: 'Nike Slim Pant',
       //slug: 'nike-slim-pant',
       category: 'Pants',
@@ -40,7 +40,7 @@
       description: 'high quality shirt',
     },
     {
-      _id: 4,
+      _id: '4',
       name: 'Adidas Fit Pant',
       //slug: 'adidas-fit-pant',
       category: 'Pants',
@@ -53,7 +53,7 @@
       description: 'high quality shirt',
     },
     {
-      _id: 5,
+      _id: '5',
       name: 'Adidas Fit Pant',
       //slug: 'adidas-fit-pant',
       category: 'Pants',
@@ -66,7 +66,7 @@
       description: 'high quality shirt',
     },
     {
-      _id: 6,
+      _id: '6',
       name: 'Adidas Fit Pant',
       //slug: 'adidas-fit-pant',
       category: 'Pants',
@@ -79,7 +79,7 @@
       description: 'high quality shirt',
     },
     {
-      _id: 7,
+      _id: '7',
       name: 'Adidas Fit Pant',
       //slug: 'adidas-fit-pant',
       category: 'Pants',

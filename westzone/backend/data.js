@@ -1,9 +1,8 @@
 const data = {
     products: [
       {
-        _id: 1,
+        _id: '1',
         name: 'Nike Slim Shirt',
-        //slug: 'nike-slim-shirt',
         category: 'Shirts',
         image: '/images/p1.jpg', // 679px x 829px
         price: 120,
@@ -14,9 +13,8 @@ const data = {
         description: 'high quality shirt',
       },
       {
-        _id: 2,
+        _id: '2',
         name: 'Adidas Fit Shirt',
-        //slug: 'adidas-fit-shirt',
         category: 'Shirts',
         image: '/images/p2.jpg',
         price: 250,
@@ -27,9 +25,8 @@ const data = {
         description: 'high quality shirt',
       },
       {
-        _id: 3,
+        _id: '3',
         name: 'Nike Slim Pant',
-        //slug: 'nike-slim-pant',
         category: 'Pants',
         image: '/images/p3.jpg',
         price: 25,
@@ -40,9 +37,8 @@ const data = {
         description: 'high quality shirt',
       },
       {
-        _id: 4,
+        _id: '4',
         name: 'Adidas Fit Pant',
-        //slug: 'adidas-fit-pant',
         category: 'Pants',
         image: '/images/p4.jpg',
         price: 65,
@@ -53,9 +49,8 @@ const data = {
         description: 'high quality shirt',
       },
       {
-        _id: 5,
+        _id: '5',
         name: 'Adidas Fit Pant',
-        //slug: 'adidas-fit-pant',
         category: 'Pants',
         image: '/images/p3.jpg',
         price: 65,
@@ -66,22 +61,20 @@ const data = {
         description: 'high quality shirt',
       },
       {
-        _id: 6,
+        _id: '6',
         name: 'Adidas Fit Pant',
-        //slug: 'adidas-fit-pant',
         category: 'Pants',
         image: '/images/p1.jpg',
         price: 65,
-        countInStock: 5,
+        countInStock: 0,
         brand: 'Puma',
         rating: 4.5,
         numReviews: 10,
         description: 'high quality shirt',
       },
       {
-        _id: 7,
+        _id: '7',
         name: 'Adidas Fit Pant',
-        //slug: 'adidas-fit-pant',
         category: 'Pants',
         image: '/images/p2.jpg',
         price: 65,
