@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 
@@ -72,7 +72,7 @@ export default App;
 function App() {
   return (
     <BrowserRouter>
-      <div className="gridContainer">
+      <div className="grid-container">
         <header className="row">
           <div>
             <a className="brand" href="/">
@@ -85,10 +85,11 @@ function App() {
           </div>
         </header>
         <main>
-          <Routes>
-            <Route path="/product/.id" element={<ProductScreen />} />
-            <Route path="/" element={<HomeScreen />} exact />
-          </Routes>
+          
+        
+            <Route path="/product/:id" component={ProductScreen} ></Route>
+            <Route path="/" component={HomeScreen } exact ></Route>
+        
         </main>
 
         <footer className="row center">All Right Reserved</footer>

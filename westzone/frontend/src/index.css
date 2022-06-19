@@ -57,7 +57,7 @@ body {
 }
 
 /* Layout */
-.gridContainer {
+.grid-container {
   display: grid;
   grid-template-areas:
     'header'
@@ -138,10 +138,10 @@ img.medium {
   border-radius: 0.5rem;
   margin: 1rem;
 }
-.cardBody {
+.card-body {
   padding: 1rem;
 }
-.cardBody > * {
+.card-body > * {
   margin-bottom: 0.5rem;
 }
 
