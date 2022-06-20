@@ -199,3 +199,8 @@
 3. Show Item Image, Name, Qty and Price
 4. Proceed to Checkout Button
 5. Implement Remove from Cart Action
+
+# *Step 15 /Implement Remove from Cart Action\
+1. Create` removeFromCart Constants, Actions and Reducers
+2. Add Reducer to store.js
+3. Use Action in CartScreen.js
