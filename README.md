@@ -186,3 +186,9 @@
 # *Step 12 /Handle Add to Cart Button\
 1. Handle Add to Cart in ProductScreen.js
 2. Create` CartScreen.js
+
+# *Step 13 /Implement Add to Cart Action\
+1. Create` addToCart Constants, Actions and Reducers
+2. Add Reducer to store.js
+3. Use Action in CartScreen.js
+4. Render` cartItems.length
