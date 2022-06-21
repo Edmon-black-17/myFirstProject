@@ -1,6 +1,22 @@
 {
+  "name": "westzone",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ecommerce website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/**/**.git"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "eslint": "^8.17.0",
-    "eslint-plugin-react": "^7.30.0"
+    "eslint-plugin-react": "^7.30.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.4.0"
   }
 }

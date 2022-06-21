@@ -164,7 +164,7 @@
 5. Add SKIP_PREFLIGHT_CHECK=true
 
 # *Step 10 /Add Redux to HomeScreen\
-1. Install |npm install redux react-redux|
+1. Install |npm install redux react-redux --force|
 2. Install |npm install redux-thunk|
 3. Create` store.js
 4. InitState = {products: []}
@@ -204,3 +204,18 @@
 1. Create` removeFromCart Constants, Actions and Reducers
 2. Add Reducer to store.js
 3. Use Action in CartScreen.js
+
+# *Step 16 /Connect to MongoDB\
+1. Install |npm install mongoose| in the Root Folder
+2. Install |npm install bcrypt| in the Root Folder
+3. Install |npm install express-async-handler| in the Root Folder
+4. Connect to MongoDB
+5. Create` config.js
+6. Install |npm install dotenv|
+7. Export MONGODB_URL
+8. Create` models/userModel.js
+9. Create` userSchema and userModel
+10. Create` models/productModel.js
+11. Create` productSchema and productModel
+12. Create` userRoute
+13. Seed Sample Data
