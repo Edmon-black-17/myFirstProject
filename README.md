@@ -235,3 +235,9 @@
 6. Install` |npm install dotenv| in the Root Folder
 7. Return Token and Data
 8. Test it by using Postman
+
+# *Step 19 /Design SignIn Screen\
+1. Create` SigninScreen
+2. Render` email and password Fields
+3. Create` Signin Constants, Actions and Reducers
+4. Update` Header Based on User Login
