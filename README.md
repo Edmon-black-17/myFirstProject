@@ -225,3 +225,13 @@
 2. Create` productSchema and productModel
 3. Create` productRoute
 4. Seed Sample Data
+
+# *Step 18 /Create Sign-in Backend\
+1. Create` /signin api
+2. Check Email and Password
+3. Generate Token
+4. Install` |npm install jsonwebtoken| in the Root Folder
+5. Create` utils.js in Backend Folder
+6. Install` |npm install dotenv| in the Root Folder
+7. Return Token and Data
+8. Test it by using Postman
