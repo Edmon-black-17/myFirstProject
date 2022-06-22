@@ -3,6 +3,11 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "serverDev": "nodemon --require dotenv/config backend/server.js"
+  },
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/**/**.git"
@@ -10,13 +15,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "dotenv": "^16.0.1",
     "eslint": "^8.17.0",
     "eslint-plugin-react": "^7.30.0",
     "nodemon": "^2.0.16"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
     "express-async-handler": "^1.2.0",
-    "mongoose": "^6.4.0"
+    "express-session": "^1.17.3",
+    "mongoose": "^5.13.14"
   }
 }

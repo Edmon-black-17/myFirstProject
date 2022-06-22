@@ -219,3 +219,9 @@
 11. Create` productSchema and productModel
 12. Create` userRoute
 13. Seed Sample Data
+
+# *Step 17 /Create Sample Products in MongoDB\
+1. Create` models/productModel.js
+2. Create` productSchema and productModel
+3. Create` productRoute
+4. Seed Sample Data
