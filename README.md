@@ -245,3 +245,12 @@
 1. Create` Signin Constants, Actions and Reducers
 2. Add Reducer to store.js
 3. Use Action in SigninScreen.js
+
+# *Step 21 /Create Register Screen and Backend API\
+1. Create` API for /api/users/register
+2. Insert New User to Database
+3. Return User Info and Token
+4. Create` RegisterScreen.js
+5. Add Fields
+6. Style Fields
+7. Add Screen to App.js
