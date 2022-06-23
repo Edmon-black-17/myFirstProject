@@ -239,5 +239,9 @@
 # *Step 19 /Design SignIn Screen\
 1. Create` SigninScreen
 2. Render` email and password Fields
-3. Create` Signin Constants, Actions and Reducers
-4. Update` Header Based on User Login
+3. Update` Header Based on User Login
+
+# *Step 20 /Implement SignIn Action\
+1. Create` Signin Constants, Actions and Reducers
+2. Add Reducer to store.js
+3. Use Action in SigninScreen.js
