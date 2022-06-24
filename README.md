@@ -254,3 +254,9 @@
 5. Add Fields
 6. Style Fields
 7. Add Screen to App.js
+
+# *Step 22 /Create Shipping Screen\
+1. Create` CheckoutSteps.js Component
+2. Create` Shipping Fields
+3. Create` ShippingAddressScreen.js
+4. Implement` Shipping Constants, Actions and Reducers
