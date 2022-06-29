@@ -264,3 +264,7 @@
 # *Step 23 /Create Payment Screen\
 1. Create` Payment Fields
 2. Implement` Shipping Constants, Actions and Reducers
+
+# *Step 24 /Design Place Order Screen\
+1. Design Order Summary Fields
+2. Design Order Action
