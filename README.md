@@ -260,3 +260,7 @@
 2. Create` Shipping Fields
 3. Create` ShippingAddressScreen.js
 4. Implement` Shipping Constants, Actions and Reducers
+
+# *Step 23 /Create Payment Screen\
+1. Create` Payment Fields
+2. Implement` Shipping Constants, Actions and Reducers
