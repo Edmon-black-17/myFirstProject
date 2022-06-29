@@ -268,3 +268,9 @@
 # *Step 24 /Design Place Order Screen\
 1. Design Order Summary Fields
 2. Design Order Action
+
+# *Step 25 /Create Place Order API\
+1. Create` order api
+2. Create` orderModel
+3. Create` orderRouter
+4. Create` post order Route
