@@ -274,3 +274,7 @@
 2. Create` orderModel
 3. Create` orderRouter
 4. Create` post order Route
+
+# *Step 26 /Implement PlaceOrder Action\
+1. Handle Place Order button click
+2. Create` placeOrder Constants, Actions and Reducers
