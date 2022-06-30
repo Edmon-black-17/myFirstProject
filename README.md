@@ -278,3 +278,11 @@
 # *Step 26 /Implement PlaceOrder Action\
 1. Handle Place Order button click
 2. Create` placeOrder Constants, Actions and Reducers
+
+# *Step 27 /Create Order Screen\
+1. Build order api for /api/orders/:id
+2. Create` OrderScreen.js
+3. Dispatch Order Details Action in useEffect
+4. Load Data with useSelector
+5. Show Data like PlaceOrderScreen
+6. Create` order details Constant, Action and Reducer
