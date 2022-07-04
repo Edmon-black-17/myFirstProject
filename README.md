@@ -301,3 +301,7 @@
 2. Create` payOrder in api.js
 3. Create` route for /:id/pay in orderRouter.js
 4. Rerender after pay order
+
+# *Step 30 /Display User Profile\
+1. Create` user details api
+2. Show user information
