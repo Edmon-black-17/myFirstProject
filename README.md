@@ -295,3 +295,9 @@
 5. Add PayPal checkout script in OrderScreen.js
 6. Show PayPal Button |npm install react-paypal-button-v2| in frontend
 7. Change` ReactDOM.render( in index.js from 18 to 17 version for Temporary
+
+# *Step 29 /Implement Order Payment\
+1. Update order after payment
+2. Create` payOrder in api.js
+3. Create` route for /:id/pay in orderRouter.js
+4. Rerender after pay order
