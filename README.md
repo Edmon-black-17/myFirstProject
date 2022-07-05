@@ -305,3 +305,9 @@
 # *Step 30 /Display User Profile\
 1. Create` user details api
 2. Show user information
+
+# *Step 31 /Display Orders History\
+1. Create` customer orders api
+2. Create` api for getMyOrders
+3. Show orders in profile screen
+4. Style orders
