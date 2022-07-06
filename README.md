@@ -315,3 +315,8 @@
 # *Step 32 /Update User Profile\
 1. Create` user update api
 2. Update user info
+
+# *Step 33 /Create Admin View\
+1. Create` Admin Menu
+2. Create` Admin Middleware in Backend
+3. Create` Admin Route in Frontend
