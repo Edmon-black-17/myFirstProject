@@ -2,7 +2,7 @@ import express from 'express';
 import expressAsyncHandler from 'express-async-handler';
 import data from '../data.js';
 import Product from '../models/productModel.js';
-//import { isAdmin, isAuth } from '../utils';
+import { isAdmin, isAuth } from '../utils.js';
 
 const productRouter = express.Router();
 
@@ -34,14 +34,14 @@ productRouter.get(
     }
   })
 );
-/*
+
 productRouter.post(
   '/',
   isAuth,
   isAdmin,
   expressAsyncHandler(async (req, res) => {
     const product = new Product({
-      name: 'sample name',
+      name: 'sample name' + Date.now(),
       image: '/images/p1.jpg',
       price: 0,
       category: 'sample category',
@@ -55,11 +55,5 @@ productRouter.post(
     res.send({ message: 'Product Created', product: createdProduct });
   })
 );
-*/
+
 export default productRouter;
-/*
-# *Step 34 /Create Product\
-1. Build create product api
-2. Build create product button
-3. Define product create Constant, Action and Reducer
-4. Use Action in ProductListScreen */
