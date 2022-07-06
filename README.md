@@ -320,3 +320,8 @@
 1. Create` Admin Menu
 2. Create` Admin Middleware in Backend
 3. Create` Admin Route in Frontend
+
+# *Step 34 /List Products\
+1. Create` ProductListScreen
+2. Add Reducer to Store
+3. Show Products on the Screen
