@@ -311,3 +311,7 @@
 2. Create` api for getMyOrders
 3. Show orders in profile screen
 4. Style orders
+
+# *Step 32 /Update User Profile\
+1. Create` user update api
+2. Update user info
