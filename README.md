@@ -331,3 +331,10 @@
 2. Build create product button
 3. Define product create Constant, Action and Reducer
 4. Use Action in ProductListScreen
+
+# *Step 36 /Build Product Edit Screen\
+1. Create` edit screen
+2. Define state
+3. Create` fields
+4. Load product details
+5. Add to routes
