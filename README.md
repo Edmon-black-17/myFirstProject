@@ -338,3 +338,8 @@
 3. Create` fields
 4. Load product details
 5. Add to routes
+
+# *Step 37 /Update Product\
+1. Define update api
+2. Define product update Constant, Action and Reducer
+3. Use action in ProductEditScreen
