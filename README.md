@@ -343,3 +343,9 @@
 1. Define update api
 2. Define product update Constant, Action and Reducer
 3. Use action in ProductEditScreen
+
+# *Step 38 /Upload Product Image\
+1. Install` |npm install multer| in root Folder
+2. Define upload router
+3. Create` uploads folder
+4. Handle frontend
