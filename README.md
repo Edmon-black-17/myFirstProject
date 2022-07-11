@@ -349,3 +349,9 @@
 2. Define upload router
 3. Create` uploads folder
 4. Handle frontend
+
+# *Step 39 /List Orders\
+1. Create` order list api
+2. Create` OrderListScreen
+3. Add reducer to store
+4. Show products on the screen
