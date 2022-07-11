@@ -355,3 +355,8 @@
 2. Create` OrderListScreen
 3. Add reducer to store
 4. Show products on the screen
+
+# *Step 40 /Delete Product\
+1. Create` delete api in backend
+2. Create` delete Constant, Action and Reducer
+3. Use it in ProductListScreen
