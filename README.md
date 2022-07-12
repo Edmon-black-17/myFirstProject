@@ -360,3 +360,7 @@
 1. Create` delete api in backend
 2. Create` delete Constant, Action and Reducer
 3. Use it in ProductListScreen
+
+# *Step 41 /Delete Order\
+1. Create` delete order Action and Reducer
+2. Add order delete Action to order list
