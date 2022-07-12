@@ -364,3 +364,7 @@
 # *Step 41 /Delete Order\
 1. Create` delete order Action and Reducer
 2. Add order delete Action to order list
+
+# *Step 42 /Deliver Order\
+1. Create` Constant, Actions and Reducers for deliver order
+2. Add order deliver action to order details screen
