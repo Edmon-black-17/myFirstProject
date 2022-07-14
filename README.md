@@ -368,3 +368,16 @@
 # *Step 42 /Deliver Order\
 1. Create` Constant, Actions and Reducers for deliver order
 2. Add order deliver action to order details screen
+
+# *Step 43 /Publish To Heroku\
+1. Create` git repository
+2. Create` Heroku account |dashboard.heroku.com/apps|
+3. Install Heroku CLI |https://devcenter.heroku.com/articles/heroku-cli|
+4. Install |npm install -g heroku| in root Folder
+5. Heroku login` run in terminal |heroku login| in root Folder
+6. Heroku apps:create<yourname> |heroku apps:create my-westzone-app| in root Folder
+7. Edit package.json for build script
+8. Create` Procfile
+9. Create` mongodb atlas database` by visiting |https://cloud.mongodb.com|
+10. Set database connection in Heroku env variables
+11. Commit and Push
